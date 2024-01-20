@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+
+.naglowek {
+    color: rgb(0, 42, 121);
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    border-width: 0 0 1px;
+    padding: 20px;
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.body {
+    background-color: rgb(255, 233, 244);
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+.dark {
+    background-color: black;
+    color: black;
+}
+
+.tableHeader {
+    background-color: rgb(167, 198, 255);
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgb(253, 205, 229);
+}
+
+.tableRow:hover {
+    background-color: rgb(255, 110, 183);
+    ;
+}
+
+.lista {
+    margin: 5px 0;
+    padding-left: 20px;
+    list-style: none;
+    font-size: large;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    background-color: darkred;
+    padding: 5px 10px;
+    color: white;
+}
+
+.link:visited {
+    background-color: darkslategray;
+    padding: 5px 10px;
+    color: white;
+}
+
+.link:focus {
+    outline: 2px solid currentColor;
+    padding: 5px 10px;
+    color: white;
+}
+
+.link:hover {
+    background-color: blueviolet;
+    border-bottom: 1px solid;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+.link:active {
+    background-color: brown;
+}
+
+.article {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+
+.rozmyślania {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
