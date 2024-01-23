@@ -7,8 +7,18 @@ html {
 }
 
 .article {
-    background-color: white;
+    background-color: hsla(0, 0%, 100%, 0.685);
     width: 80%;
     padding: 20px;
     margin: auto;
+}
+
+
+.article_header {
+    font-family: 'Kalnia', serif;
+    font-weight: 300;
+    font-size: xxx-large;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 20px;
 }
