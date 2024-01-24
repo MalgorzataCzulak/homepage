@@ -12,3 +12,9 @@ html {
     padding: 20px;
     margin: auto;
 }
+
+.nav-link {
+    color: #eee;
+    text-decoration: none;
+    font-family: 'Antonio', sans-serif;
+}
