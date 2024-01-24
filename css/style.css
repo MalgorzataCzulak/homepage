@@ -11,11 +11,28 @@ html {
 }
 
 
+.body {
+   background-image: url("../images/background.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: top;
+    max-width: 1000px;
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+}
+
+.dark {
+    background-color: black;
+    color: black;
+}
+
 .header {
     color: rgb(0, 0, 0);
     background-color: hsla(0, 0%, 100%, 0.685);
     width: 100%;
     padding: 20px;
+    margin-top: 0;
     font-family: 'Playfair Display SC', serif;
     font-weight: 200;
     font-size: xxx-large;
@@ -40,18 +57,9 @@ html {
     padding-top: 5px;
 }
 
-.body {
-    background-color: rgb(255, 233, 244);
-    max-width: 1000px;
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
-    line-height: 2;
-}
 
-.dark {
-    background-color: black;
-    color: black;
-}
+
+
 
 .tableHeader {
     background-color: rgb(167, 198, 255);
