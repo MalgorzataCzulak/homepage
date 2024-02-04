@@ -24,16 +24,15 @@ html {
 }
 
 .dark {
-    background-color: black;
-    color: black;
+       color: #ccc;
 }
 
 .header {
     color: rgb(0, 0, 0);
-    background-color: hsla(0, 0%, 100%, 0.685);
-    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.808);
+    width: 80%;
     padding: 20px;
-    margin-top: 0;
+    margin: auto;
     font-family: 'Playfair Display SC', serif;
     font-weight: 200;
     font-size: xxx-large;

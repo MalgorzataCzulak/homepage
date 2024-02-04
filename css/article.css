@@ -7,9 +7,9 @@ html {
 }
 
 .article {
-    background-color: hsla(0, 0%, 100%, 0.685);
+    background-color: hsla(0, 0%, 100%, 0.808);
     width: 80%;
-    padding: 20px;
+    padding: 2% 10%;
     margin: auto;
 }
 
@@ -22,3 +22,7 @@ html {
     width: 100%;
     padding: 20px;
 }
+
+.article--dark {
+    background-color: hsla(0, 0%, 13%, 0.685);
+    }
