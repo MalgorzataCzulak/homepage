@@ -25,4 +25,5 @@ html {
 
 .article--dark {
     background-color: hsla(0, 0%, 13%, 0.685);
+    color: #ccc;
     }
