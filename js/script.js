@@ -1,28 +1,32 @@
-function hello() {
-    console.log("Cześć! Ten kod jest już w reozytorium GIT");
-}
-
-
-let backgroundToggle = () => {
-    body.classList.toggle("dark");
-    article.classList.toggle("article--dark");
-
-    if (body.classList.contains("dark")) {
-        themeName.innerText = "jasny";
-    } else {
-        themeName.innerText = "ciemny";
+{
+    const hello = () => {
+        console.log("Cześć! Ten kod jest już w reozytorium GIT");
     }
-};
-
-hello ();
- 
 
 
+    const backgroundToggle = () => {
+        const body = document.querySelector(".body");
+        const article = document.querySelector(".article");
+        const themeName = document.querySelector(".themeName");
 
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
-let article = document.querySelector(".article");
+        article.classList.toggle("article--dark");
+
+        if (body.classList.contains("dark")) {
+            themeName.innerText = "jasny";
+        } else {
+            themeName.innerText = "ciemny";
+        }
+    };
 
 
-button.addEventListener("click", backgroundToggle);
+
+    const init = () => {
+    const button = document.querySelector(".button");
+       button.addEventListener("click", backgroundToggle);
+
+        hello();
+    };
+
+    init();
+
+}
