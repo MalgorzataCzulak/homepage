@@ -11,7 +11,7 @@
 
         article.classList.toggle("article--dark");
 
-        if (body.classList.contains("dark")) {
+        if (body.classList.contains("article--dark")) {
             themeName.innerText = "jasny";
         } else {
             themeName.innerText = "ciemny";
