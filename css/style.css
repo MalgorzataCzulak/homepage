@@ -105,14 +105,3 @@ html {
 .link:active {
     background-color: brown;
 }
-
-
-
-.rozmyślania {
-    border: 1px solid black;
-    text-align: center;
-    padding: 2%;
-    width: 50%;
-    margin: auto;
-    margin-top: 50px;
-}
